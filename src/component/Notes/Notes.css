@@ -1,0 +1,38 @@
+.notes{
+    padding: 15px;
+    width: 22vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.text_notes{
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: none;
+    outline:none;
+}
+.notes-footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notes-footer-info img{
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.1;
+    transition: 300ms;
+}
+
+.notes-footer-info img:hover{
+    opacity: 1;
+    cursor: pointer;
+}

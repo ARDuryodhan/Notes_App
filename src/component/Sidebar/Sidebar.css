@@ -1,0 +1,54 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    height: 38rem;
+    /* background-image: url('../../assets/notes-bg.jpg'); */
+}
+.sidebar img{
+    width: 4rem;
+    cursor: pointer;
+    margin-top: 1rem;    
+    animation: beat 3s infinite ;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px #c5c5c5;
+}
+
+.sidebar p{
+    font-size: 15px;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+.sidebar_list{
+    height: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    transition: 300ms;
+}
+.sidebar_list_active{
+    height: 300px;
+}
+.sidebar_list_item{
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 1.8rem;
+    
+}
+li{
+    list-style-type: none;
+}
+
+@keyframes beat {
+    0%,100%{
+        transform:  scale(0.5);
+    }
+    50%{
+        transform:  scale(1);
+    }
+}

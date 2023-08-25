@@ -1,0 +1,29 @@
+
+.notes-container{
+    height: 90%;
+}
+.notes-container-notes{
+    /* height: 90%; */
+    display:flex;
+    flex-wrap:wrap;
+    padding: 1rem;
+
+}
+.title{
+    position: relative;
+}
+.notes-container h2{
+    margin-bottom: 20px;
+    opacity: 0.4;
+    color: rgba(255, 255, 255, 0.562);
+    display: flex;
+    justify-content: center;
+
+}
+.notes-container h1{
+    margin-bottom: 1rem;
+    font-family:cursive;
+    font-size: 3rem;
+    margin-left: 1rem;
+    
+}
