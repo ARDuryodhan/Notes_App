@@ -11,7 +11,7 @@ function App() {
   const addNotes = (color) => {
     const tempNotes = [...Notes];
     const uuid= require('uuid');
-    const uniqueId = uuid.v4();
+    // const uniqueId = uuid.v4();
 
     
 

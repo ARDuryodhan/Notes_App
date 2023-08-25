@@ -22,7 +22,7 @@ function NoteContainer(props) {
   };
 
   const notes = reverseArray(props.notes);
-  console.log(props.notes,Notes)
+  // console.log(props.notes,Notes)
   
   
   
