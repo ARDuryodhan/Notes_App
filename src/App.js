@@ -23,7 +23,7 @@ function App() {
       color,
     });
 
-  
+    setNotes(tempNotes);
   };
 
   const deleteNotes=(id)=>{
